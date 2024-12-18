@@ -1,8 +1,8 @@
-**#Intelligent Tutoring System (ITS)**
+Intelligent Tutoring System (ITS)
 
 This project is an Intelligent Tutoring System (ITS) that provides a user-friendly interface for querying mathematical, geometric, and chemical knowledge from an ontology. It allows users to explore various concepts, formulas, and elements through both a terminal-based interface and a **Streamlit** frontend.
 
-## Features
+Features
 - **Mathematical and Geometric Concepts**: Retrieve all available mathematical and geometric concepts in the ontology.
 - **Shape Formulas**: Get formulas related to specific shapes (e.g., Circle, Rectangle).
 - **Chemical Elements**: Retrieve details of chemical elements, such as their atomic number and atomic mass.
@@ -10,7 +10,7 @@ This project is an Intelligent Tutoring System (ITS) that provides a user-friend
 - **Shape Listing**: List all shapes in the ontology with their labels.
 - **Streamlit Frontend**: A web-based interface for easy interaction with the system.
 
-## Prerequisites
+Prerequisites
 
 Ensure the following dependencies are installed before running the system:
 
