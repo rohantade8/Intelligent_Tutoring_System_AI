@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+         xml:base="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xml="http://www.w3.org/XML/1998/namespace"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         ontologyIRI="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology">
+
+    <!-- Prefixes -->
+    <rdf:Prefix name="" IRI="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology/"/>
+    <rdf:Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <rdf:Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <rdf:Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <rdf:Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <rdf:Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+
+    <!-- Classes -->
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Mathematics">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#GeometricShape">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Circle">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Square">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Rectangle">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Triangle">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Sphere">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Cube">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Cylinder">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Operation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Addition">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Multiplication">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Integration">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Differentiation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Number">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Pi">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#EulerNumber">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Formula">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    </rdf:Description>
+
+    <!-- Defining Properties -->
+    <rdf:Property rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#hasRadius"/>
+    <rdf:Property rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#hasSideLength"/>
+    <rdf:Property rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#hasArea"/>
+    <rdf:Property rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#hasVolume"/>
+    <rdf:Property rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#hasAtomicMass"/>
+    <rdf:Property rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#hasElectronConfiguration"/>
+
+    <!-- Instances -->
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Hydrogen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Element"/>
+        <rdfs:label>Hydrogen</rdfs:label>
+        <rdf:Property rdf:resource="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#hasAtomicNumber">1</rdf:Property>
+        <rdf:Property rdf:resource="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#hasAtomicMass">1.008</rdf:Property>
+        <rdf:Property rdf:resource="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#hasElectronConfiguration">1s1</rdf:Property>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Helium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Element"/>
+        <rdfs:label>Helium</rdfs:label>
+        <rdf:Property rdf:resource="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#hasAtomicNumber">2</rdf:Property>
+        <rdf:Property rdf:resource="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#hasAtomicMass">4.0026</rdf:Property>
+        <rdf:Property rdf:resource="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#hasElectronConfiguration">1s2</rdf:Property>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Lithium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Element"/>
+        <rdfs:label>Lithium</rdfs:label>
+        <rdf:Property rdf:resource="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#hasAtomicNumber">3</rdf:Property>
+        <rdf:Property rdf:resource="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#hasAtomicMass">6.94</rdf:Property>
+        <rdf:Property rdf:resource="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#hasElectronConfiguration">1s2 2s1</rdf:Property>
+    </rdf:Description>
+
+    <!-- Geometric Formulas -->
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#CircleAreaFormula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Formula"/>
+        <rdfs:label>Area of a Circle</rdfs:label>
+        <rdfs:comment>Area = Pi * r^2</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#RectangleAreaFormula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2024/11/advanced-ontology#Formula"/>
+        <rdfs:label>Area of a Rectangle</rdfs:label>
+        <rdfs:comment>Area = length * width</rdfs:comment>
+    </rdf:Description>
+
+</rdf:RDF>
