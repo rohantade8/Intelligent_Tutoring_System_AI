@@ -1,4 +1,4 @@
-#Intelligent Tutoring System (ITS)
+**#Intelligent Tutoring System (ITS)**
 
 This project is an Intelligent Tutoring System (ITS) that provides a user-friendly interface for querying mathematical, geometric, and chemical knowledge from an ontology. It allows users to explore various concepts, formulas, and elements through both a terminal-based interface and a **Streamlit** frontend.
 
