@@ -1,8 +1,11 @@
-Intelligent Tutoring System (ITS)
+# Intelligent Tutoring System (ITS)
 
 This project is an Intelligent Tutoring System (ITS) that provides a user-friendly interface for querying mathematical, geometric, and chemical knowledge from an ontology. It allows users to explore various concepts, formulas, and elements through both a terminal-based interface and a **Streamlit** frontend.
 
-Features
+---
+
+## Features
+
 - **Mathematical and Geometric Concepts**: Retrieve all available mathematical and geometric concepts in the ontology.
 - **Shape Formulas**: Get formulas related to specific shapes (e.g., Circle, Rectangle).
 - **Chemical Elements**: Retrieve details of chemical elements, such as their atomic number and atomic mass.
@@ -10,7 +13,9 @@ Features
 - **Shape Listing**: List all shapes in the ontology with their labels.
 - **Streamlit Frontend**: A web-based interface for easy interaction with the system.
 
-Prerequisites
+---
+
+## Prerequisites
 
 Ensure the following dependencies are installed before running the system:
 
@@ -18,7 +23,7 @@ Ensure the following dependencies are installed before running the system:
 - **rdflib** library (for RDF graph handling)
 - **Streamlit** (for the web-based frontend)
 
-To install the necessary dependencies, you can use the following command:
+To install the necessary dependencies, use the following command:
 
 ```bash
 pip install rdflib streamlit
@@ -30,7 +35,9 @@ Additionally, you will need an ontology file in `.owl` format. The project uses 
 <path_to_ontology>/shapes_ontology.owl
 ```
 
-Make sure the ontology file is correctly placed in the specified directory, or update the `ontology_path` in the code if you place the file elsewhere.
+Ensure the ontology file is correctly placed in the specified directory, or update the `ontology_path` in the code if you place the file elsewhere.
+
+---
 
 ## File Structure
 
@@ -50,6 +57,8 @@ intelligent-tutoring-system/
 ├── README.md                       # This file
 └── LICENSE                         # License file (optional)
 ```
+
+---
 
 ## How to Use
 
@@ -78,7 +87,7 @@ This will present a menu for the user to interact with the system.
 
 ### 4. Run the Streamlit Frontend
 
-For a web-based interface, you can use **Streamlit**. Here's how to set up and run the **Streamlit** frontend:
+For a web-based interface, use **Streamlit**. Here's how to set up and run the **Streamlit** frontend:
 
 1. Navigate to the `src/` directory:
 
@@ -96,7 +105,7 @@ For a web-based interface, you can use **Streamlit**. Here's how to set up and r
 
 ### 5. Interact with the System
 
-The web interface will allow you to:
+The web interface allows you to:
 
 - **Get all mathematical and geometric concepts**
 - **Get formulas for a specific shape**
@@ -108,9 +117,12 @@ The web interface will allow you to:
 
 To exit the system, simply close the terminal or stop the Streamlit server.
 
+---
+
 ## Code Overview
 
 ### `knowledge_base.py`
+
 This module handles the interaction with the ontology, providing methods to query classes, formulas, properties, and elements.
 
 - **Methods**:
@@ -121,9 +133,11 @@ This module handles the interaction with the ontology, providing methods to quer
   - `get_all_properties()`: Retrieves all properties (e.g., hasRadius, hasArea) in the ontology.
 
 ### `main.py`
+
 This is the main entry point for running the Intelligent Tutoring System in the terminal. It provides a menu for the user to select different options and interact with the system.
 
 ### `streamlit_app.py`
+
 This file contains the Streamlit frontend. It provides an interactive web interface where users can query mathematical, geometric, and chemical information from the ontology.
 
 - **Streamlit Components**:
@@ -139,15 +153,21 @@ When you run the Streamlit app (`streamlit_app.py`), you will see the following 
 - **Text Input**: Allows you to enter a shape name or element name based on the selected action.
 - **Results**: The relevant results from the ontology will be displayed below.
 
+---
+
 ## Troubleshooting
 
 - **No Formulas Found**: If no formulas are found for a shape, ensure that the shape is correctly defined in the ontology and linked to the relevant formulas.
 - **Shape Not Listed**: If a shape doesn't appear in the list, verify that the shape is correctly defined in the ontology and that the ontology path is correct.
 - **Invalid Choices**: If you encounter an invalid input, make sure to follow the menu options and input valid choices.
 
+---
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
 
 ## Future Improvements
 
@@ -155,6 +175,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Improve User Interface**: Create a graphical user interface (GUI) using libraries like Tkinter or a more sophisticated web-based UI with Flask or Django.
 - **Expand Ontology**: Add more concepts, formulas, and elements to make the system even more powerful.
 
----
-
-This README now includes details about running the **Streamlit** frontend along with instructions for the terminal-based system. It also provides clear guidelines for setting up, interacting with, and troubleshooting the system.
